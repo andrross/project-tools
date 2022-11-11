@@ -118,6 +118,8 @@ RSpec/ExampleLength:
 # Include: **/*_spec*rb*, **/spec/**/*
 RSpec/FilePath:
   Exclude:
+    - 'spec/github/commit_spec.rb'
+    - 'spec/github/commits_spec.rb'
     - 'spec/github/contributor_spec.rb'
     - 'spec/github/contributors_spec.rb'
     - 'spec/github/data_spec.rb'
